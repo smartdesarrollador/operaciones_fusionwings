@@ -1,0 +1,209 @@
+[22-Jan-2024 14:51:53 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:51:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[22-Jan-2024 14:51:57 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:51:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[22-Jan-2024 14:51:57 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:51:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[22-Jan-2024 14:52:02 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[22-Jan-2024 14:52:07 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:07 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[22-Jan-2024 14:52:13 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:13 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[22-Jan-2024 14:52:17 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:17 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[22-Jan-2024 14:52:23 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:23 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[22-Jan-2024 14:52:27 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:27 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[22-Jan-2024 14:52:33 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:33 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[22-Jan-2024 14:52:37 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[22-Jan-2024 14:52:37 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#1 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#2 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 8
+[12-Feb-2024 12:47:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:14 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:18 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:19 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:23 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:24 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:28 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:29 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:33 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:33 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:35 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:38 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:39 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:43 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:44 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:48 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5
+[12-Feb-2024 12:47:50 America/Chicago] PHP Warning:  error_log(log/proyecto.log): Failed to open stream: No such file or directory in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 16
+[12-Feb-2024 12:47:50 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php:5
+Stack trace:
+#0 /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php(5): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'elegipcio')
+#1 /home1/elegipcio/operaciones.elegipcio.pe/model/Pedido.php(23): AccesoBD::ConexionBD(Array)
+#2 /home1/elegipcio/operaciones.elegipcio.pe/ajax/updatePedidos.php(3): Pedido->__construct()
+#3 {main}
+  thrown in /home1/elegipcio/operaciones.elegipcio.pe/model/AccesoBD.class.php on line 5

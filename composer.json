@@ -1,0 +1,7 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.138",
+        "phpoffice/phpspreadsheet": "^1.14",
+      "ext-json": "*"
+    }
+}
