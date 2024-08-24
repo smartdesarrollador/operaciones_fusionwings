@@ -43,7 +43,7 @@ $ir = $_SERVER['HTTP_REFERER'];
                 </div>
             </div>
             <div class="col l6 push-l3 pull-l3 s12 center-align z-depth-4 hoverable" style="border-radius:5px;border: 2px solid black;margin-top: 20px;padding: 50px;margin-bottom: 40px">
-                <form class="col s12" action="https://elegipcio.pe/script/addProduct.php" enctype="multipart/form-data" method="post">
+                <form class="col s12" action="https://fusionwings.pe/script/addProduct.php" enctype="multipart/form-data" method="post">
 
                     <div class="row">
                         <div class="input-field col s12">
@@ -71,7 +71,7 @@ $ir = $_SERVER['HTTP_REFERER'];
                             <select required class="validate" name="tipoProducto">
                                 <option value="" disabled selected>Elige una opción</option>
                                 <?php foreach ($listaTipoProductos as $tipoProducto) { ?>
-                                    <option class="left" data-icon="https://elegipcio.pe/assets/img/promos/<?php echo $tipoProducto['imageUrl'] ?>" value="<?php echo $tipoProducto['idTipoProducto'] ?>"><?php echo $tipoProducto['nombre'] ?></option>
+                                    <option class="left" data-icon="https://fusionwings.pe/assets/img/promos/<?php echo $tipoProducto['imageUrl'] ?>" value="<?php echo $tipoProducto['idTipoProducto'] ?>"><?php echo $tipoProducto['nombre'] ?></option>
                                 <?php } ?>
                             </select>
                             <label>Tipo Producto</label>

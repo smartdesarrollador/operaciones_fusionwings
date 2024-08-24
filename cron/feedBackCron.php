@@ -49,7 +49,7 @@ foreach ($listaPedido as $pedido) {
             $telefonoDestino = trim('+51'.$pedido['pedidoTelefono']);
 
             $mensaje = 'Hola, ¿cómo te fue con tu pedido? por favor ayúdanos a seguir mejorando';
-            $url = 'https://elegipcio.pe/r.php?i=' . $pedido['idPedido'] . '&t=' . $token;
+            $url = 'https://fusionwings.pe/r.php?i=' . $pedido['idPedido'] . '&t=' . $token;
             $mensajeCompleto = $mensaje . ' ' . $url;
 
             $SnSclient = new SnsClient([

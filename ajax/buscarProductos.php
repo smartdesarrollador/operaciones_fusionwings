@@ -45,7 +45,7 @@ if (isset($_POST['consulta'])) {
         <div class="col l4 m4 s12  xl4 l4 ">
             <img class="  center-block lazy"
                  style="width: 180px ;margin-top: 10px;margin-bottom: 10px"
-                 data-src="https://elegipcio.pe/assets/img/promos/<?php echo $producto['imagenProducto'] ?>"
+                 data-src="https://fusionwings.pe/assets/img/promos/<?php echo $producto['imagenProducto'] ?>"
                  alt="">
         </div>
         <div class="col l4 m4 s12  xl4 l4 center-align ">

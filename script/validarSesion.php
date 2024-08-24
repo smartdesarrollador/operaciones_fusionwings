@@ -26,7 +26,7 @@ if (isset($_POST["submit"]) && $_SERVER["REQUEST_METHOD"] == "POST" && session_i
 
 
 
-            if ($_POST['email'] == "halalfood@elegipcio.pe") {
+            if ($_POST['email'] == "halalfood@fusionwings.pe") {
                 $_SESSION['local_jesus_maria'] = "jesus_maria";
                 header("location: ../store-selector-jesus-maria");
             } else {
@@ -37,7 +37,7 @@ if (isset($_POST["submit"]) && $_SERVER["REQUEST_METHOD"] == "POST" && session_i
             $_SESSION['current_fullName'] = $lista['nombre'];
             $_SESSION['current_rol'] = 'motorizado';
 
-            if ($_POST['email'] == "halalfood@elegipcio.pe") {
+            if ($_POST['email'] == "halalfood@fusionwings.pe") {
                 $_SESSION['local_jesus_maria'] = "jesus_maria";
                 header("location: ../store-selector-jesus-maria");
             } else {

@@ -31,10 +31,10 @@
             icon: 'img/logoMain.png',
         };
 
-        var n = new Notification('El Egipcio',options);
+        var n = new Notification('Fusion Wings',options);
         setTimeout(n.close.bind(n), 5000);
         n.onclick = function() {
-            window.open('https://operaciones.elegipcio.pe/dashboard');
+            window.open('https://operaciones.fusionwings.pe/dashboard');
         };
 
     }

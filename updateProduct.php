@@ -54,7 +54,7 @@ $ir = $_SERVER['HTTP_REFERER'];
                 </div>
             </div>
             <div class="col l6 push-l3 pull-l3 s12 center-align z-depth-4 hoverable" style="border-radius:5px;border: 2px solid black;margin-top: 20px;padding: 50px;margin-bottom: 40px">
-                <form id="formUpdate" class="col s12" action="https://elegipcio.pe/script/updateProduct.php" enctype="multipart/form-data" method="post">
+                <form id="formUpdate" class="col s12" action="https://fusionwings.pe/script/updateProduct.php" enctype="multipart/form-data" method="post">
 
                     <div class="row">
                         <div class="col l12 s12 m12 xl12">
@@ -72,7 +72,7 @@ $ir = $_SERVER['HTTP_REFERER'];
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <input data-min-height="400" data-max-file-size="2M" data-min-width="400" data-allowed-file-extensions="jpg" type="file" class="dropify" id="fotoSubir" data-height="300" data-default-file="https://elegipcio.pe/assets/img/promos/<?php echo $producto['imagenProducto'] ?>" data-show-remove="false" name="foto" />
+                            <input data-min-height="400" data-max-file-size="2M" data-min-width="400" data-allowed-file-extensions="jpg" type="file" class="dropify" id="fotoSubir" data-height="300" data-default-file="https://fusionwings.pe/assets/img/promos/<?php echo $producto['imagenProducto'] ?>" data-show-remove="false" name="foto" />
                         </div>
 
                     </div>
@@ -96,7 +96,7 @@ $ir = $_SERVER['HTTP_REFERER'];
                             <select required class="validate" name="tipoProducto">
                                 <option value="" disabled selected>Elige una opción</option>
                                 <?php foreach ($listaTipoProductos as $tipoProducto) { ?>
-                                    <option class="left" data-icon="https://elegipcio.pe/assets/img/promos/<?php echo $tipoProducto['imageUrl'] ?>" <?php if ($tipoProducto['idTipoProducto'] == $producto['idTipoProducto']) echo 'selected'; ?> value="<?php echo $tipoProducto['idTipoProducto'] ?>"><?php echo $tipoProducto['nombre'] ?></option>
+                                    <option class="left" data-icon="https://fusionwings.pe/assets/img/promos/<?php echo $tipoProducto['imageUrl'] ?>" <?php if ($tipoProducto['idTipoProducto'] == $producto['idTipoProducto']) echo 'selected'; ?> value="<?php echo $tipoProducto['idTipoProducto'] ?>"><?php echo $tipoProducto['nombre'] ?></option>
                                 <?php } ?>
                             </select>
                             <label>Tipo Producto</label>

@@ -137,7 +137,7 @@ $items = $objPedido->getPedidosItemsByidPedido(trim($idPedido));
 <div id="invoice-POS">
     <div id="mid">
         <div class="info">
-            <h2 style="text-align: center;margin-top: 0;margin-bottom: 0">El Egipcio - Delivery</h2>
+            <h2 style="text-align: center;margin-top: 0;margin-bottom: 0">Fusion Wings - Delivery</h2>
             <p>
                 <strong style="text-transform: uppercase"><u><?php echo $pedido['documento'] ?><br></u></strong>
                 Pedido Nro: #<?php echo str_pad( $pedido['idPedido'], 8, "0", STR_PAD_LEFT); ?></br>
