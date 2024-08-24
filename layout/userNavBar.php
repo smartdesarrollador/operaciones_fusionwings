@@ -2,12 +2,12 @@
     <source src="sound/alarma-morning-mix.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
-<div class="navbar-fixed black">
+<div class="navbar-fixed bg-fusionwings">
     <nav class="animated ">
-        <div class="nav-wrapper black">
+        <div class="nav-wrapper bg-fusionwings">
             <div class="">
                 <a href="./" class="brand-logo deep-orange-text logoWSFPC center-align">
-                    <img class="logoWSFPCImagen" src="img/logoMain.png" alt="">
+                    <img class="logoWSFPCImagen" src="img/fusion-wings.png" alt="">
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text text-darken-2"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
