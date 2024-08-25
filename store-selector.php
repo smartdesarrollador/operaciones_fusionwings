@@ -46,7 +46,7 @@ if (isset($_SESSION["current_email"]) && $_SESSION["current_email"] != '') {
                                 <a href="#!" onclick="chooseStoreId(1)" class="collection-item grey-text text-darken-2">
                                     <h6>
                                         <i class="material-icons left">store</i>
-                                        Local 1 (Lince)
+                                        TIENDA FUSION WINGS
                                     </h6>
                                 </a>
                                <!--  <a href="#!" onclick="chooseStoreId(2)" class="collection-item grey-text text-darken-2">

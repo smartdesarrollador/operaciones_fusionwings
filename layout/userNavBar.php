@@ -48,7 +48,7 @@
                         <!--<a class="btn btn-flat red white-text " style="cursor: initial"><? /*=*/ ?></a>-->
 
                         <?php if ($_SESSION['storeId'] == '1') { ?>
-                            <a class="btn btn-flat red white-text " style="cursor: initial">Tienda 1 (Lince)</a>
+                            <a class="btn btn-flat red white-text " style="cursor: initial">FUSION WINGS</a>
                         <?php } ?>
                         <?php if ($_SESSION['storeId'] == '2') { ?>
                             <a class="btn btn-flat red white-text " style="cursor: initial">Tienda 2 (Surco)</a>
@@ -175,14 +175,14 @@
 <ul id="dropdown2" class="dropdown-content">
    <li>
             <a href="productos?store=1">
-                Local Lince
+                Productos
             </a>
         </li>
 </ul>
 <ul id="dropdown3" class="dropdown-content">
    <li>
             <a href="productos?store=1">
-                Local Lince
+                Productos
             </a>
         </li>
 
@@ -191,7 +191,7 @@
 <ul id="dropdown4" class="dropdown-content">
      <li>
             <a href="usuarios_lince.php">
-                Usuarios Lince
+                Usuarios
             </a>
         </li>
 
@@ -200,7 +200,7 @@
 <ul id="dropdown5" class="dropdown-content">
    <li>
             <a href="usuarios_lince.php">
-                Usuarios Lince
+                Usuarios
             </a>
         </li>
 

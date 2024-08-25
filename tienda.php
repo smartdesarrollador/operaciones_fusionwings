@@ -95,7 +95,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
             </div>
 -->
                 <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
-                    <h5 class="center-align">Disponibilidad de las tiendas</h5>
+                    <h5 class="center-align">Disponibilidad de la tienda</h5>
 
                     <?php foreach ($objTienda->getEstadoTiendas() as $item) { ?>
 
@@ -104,7 +104,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                             <?php if (isset($_SESSION['local_jesus_maria']) == "jesus_maria") {  ?>
                                 <?php if ($item['idTienda'] === '1') {
                                 ?>
-                                <h5>Tienda Lince</h5>
+                                <h5>Tienda Fusion Wings</h5>
                                     <!-- <h5>Tienda Jesús María</h5> -->
                                     <label>
                                         CERRADO
@@ -117,7 +117,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                             <?php } else { ?>
                                 <?php if ($item['idTienda'] === '1') {
                                 ?>
-                                    <h5>Tienda Lince</h5>
+                                    <h5>Tienda Fusion Wings</h5>
                                     <label>
                                     CERRADO
                                     <input <?= ($item['acepta_pedidos'] == 'TRUE') ? 'checked' : '' ?> onclick="actualizarDisponibilidad('<?= $item['acepta_pedidos'] ?>','<?= $item['idTienda'] ?>')" id="chkTiendaStatus" type="checkbox" class="">
@@ -209,7 +209,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                     </div>
                 <?php } else { ?>
                     <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
-                        <h5 class="center-align">Codigo de Cupón Lince</h5>
+                        <h5 class="center-align">Codigo de Cupón</h5>
 
                         <form action="guardar_cupon.php" method="POST" style="padding: 40px;">
 
@@ -250,7 +250,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
 
 
                     <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
-                        <h5 class="center-align">Descuento de cupón Lince</h5>
+                        <h5 class="center-align">Descuento de cupón</h5>
 
                         <form action="guardar_descuento.php" method="POST" style="padding: 40px;">
 
@@ -268,7 +268,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                     </div>
 
                     <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
-                        <h5 class="center-align">Fecha límite cupón Lince</h5>
+                        <h5 class="center-align">Fecha límite cupón</h5>
 
                         <form action="guardar_fecha_lince.php" method="POST" style="padding: 40px;">
 
@@ -502,7 +502,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                                     <div class="d-node coords"><?= $item['coords'] ?></div>
                                     <div class="row">
                                         <div class="col s6">
-                                            <!-- <h6><?= ($item['idTienda'] == '1') ? 'Tienda Lince' : 'Tienda Surco' ?></h6> -->
+                                            <!-- <h6><?= ($item['idTienda'] == '1') ? 'Tienda Fusion Wings' : 'Tienda Surco' ?></h6> -->
 
 
                                             <h6>Tienda Jesús María</h6>
@@ -550,7 +550,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                                 <div class="d-node coords"><?= $item['coords'] ?></div>
                                 <div class="row">
                                     <div class="col s6">
-                                        <!-- <h6><?= ($item['idTienda'] == '1') ? 'Tienda Lince' : 'Tienda Surco' ?></h6> -->
+                                        <!-- <h6><?= ($item['idTienda'] == '1') ? 'Tienda Fusion Wings' : 'Tienda Surco' ?></h6> -->
 
                                         <?php if ($item['idTienda'] == '1') { ?>
                                             <!-- <h6>Tienda Lince</h6> -->
@@ -654,7 +654,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                 </div>
             <?php } else { ?>
                 <div class="col l4 s12 m4 xl4 z-depth-5  " style="border-radius: 5px; border: 3px solid black;margin-top: 30px">
-                    <h5 class="center-align">Ingredientes Tienda Lince</h5>
+                    <h5 class="center-align">Ingredientes Fusion Wings</h5>
 
 
                     <div class="row">
