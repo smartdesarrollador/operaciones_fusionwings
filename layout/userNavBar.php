@@ -135,11 +135,11 @@
             </i>reportes</a>
     </li>
     <li class="divider"></li>
-    <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
+    <!-- <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
         <li class="center-align"><a href="store-selector-jesus-maria"><i class="material-icons">sync_alt</i>Cambiar Local</a></li>
     <?php } else { ?>
         <li class="center-align"><a href="store-selector"><i class="material-icons">sync_alt</i>Cambiar Local</a></li>
-    <?php } ?>
+    <?php } ?> -->
 
     <li class="divider"></li>
     <li class="center-align"><a href="script/logOut.php"><i class="material-icons">exit_to_app</i>Cerrar Sesión</a></li>
@@ -151,7 +151,7 @@
 
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-    <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
+    <!-- <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
         <li><a href="store-selector-jesus-maria">Cambiar Local:
                 <i class="material-icons">
                     sync_alt
@@ -163,7 +163,7 @@
                     sync_alt
                 </i>
             </a></li>
-    <?php } ?>
+    <?php } ?> -->
 
 
 
@@ -173,107 +173,35 @@
 </ul>
 
 <ul id="dropdown2" class="dropdown-content">
-    <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
-        <li>
-            <a href="productos?store=3">
-                Local Jesús María
-            </a>
-        </li>
-    <?php } else { ?>
-        <li>
+   <li>
             <a href="productos?store=1">
                 Local Lince
             </a>
         </li>
-        <li>
-            <a href="productos?store=2">
-                Local Surco
-            </a>
-        </li>
-        <li>
-            <a href="productos?store=3">
-                Local Jesús María
-            </a>
-        </li>
-    <?php } ?>
 </ul>
 <ul id="dropdown3" class="dropdown-content">
-    <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
-        <li>
-            <a href="productos?store=3">
-                Local Jesús María
-            </a>
-        </li>
-    <?php } else { ?>
-        <li>
+   <li>
             <a href="productos?store=1">
                 Local Lince
             </a>
         </li>
-        <li>
-            <a href="productos?store=2">
-                Local Surco
-            </a>
-        </li>
-        <li>
-            <a href="productos?store=3">
-                Local Jesús María
-            </a>
-        </li>
-    <?php } ?>
 
 </ul>
 
 <ul id="dropdown4" class="dropdown-content">
-    <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
-        <li>
-            <a href="usuarios_jesus_maria.php">
-                Usuarios Jesús María
-            </a>
-        </li>
-    <?php } else { ?>
-        <li>
+     <li>
             <a href="usuarios_lince.php">
                 Usuarios Lince
             </a>
         </li>
-        <li>
-            <a href="usuarios_surco.php">
-                Usuarios Surco
-            </a>
-        </li>
-        <li>
-            <a href="usuarios_jesus_maria.php">
-                Usuarios Jesús María
-            </a>
-        </li>
-    <?php } ?>
 
 </ul>
 
 <ul id="dropdown5" class="dropdown-content">
-    <?php if ($_SESSION['local_jesus_maria'] == "jesus_maria") {  ?>
-        <li>
-            <a href="usuarios_jesus_maria.php">
-                Usuarios Jesús María
-            </a>
-        </li>
-    <?php } else { ?>
-        <li>
+   <li>
             <a href="usuarios_lince.php">
                 Usuarios Lince
             </a>
         </li>
-        <li>
-            <a href="usuarios_surco.php">
-                Usuarios Surco
-            </a>
-        </li>
-        <li>
-            <a href="usuarios_jesus_maria.php">
-                Usuarios Jesús María
-            </a>
-        </li>
-    <?php } ?>
 
 </ul>

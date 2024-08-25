@@ -49,7 +49,7 @@ if (isset($_SESSION["current_email"]) && $_SESSION["current_email"] != '') {
                                         Local 1 (Lince)
                                     </h6>
                                 </a>
-                                <a href="#!" onclick="chooseStoreId(2)" class="collection-item grey-text text-darken-2">
+                               <!--  <a href="#!" onclick="chooseStoreId(2)" class="collection-item grey-text text-darken-2">
                                     <h6>
                                         <i class="material-icons left">store</i>
                                         Local 2 (Surco)
@@ -60,7 +60,7 @@ if (isset($_SESSION["current_email"]) && $_SESSION["current_email"] != '') {
                                         <i class="material-icons left">store</i>
                                         Local 3 (Jesús María)
                                     </h6>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>

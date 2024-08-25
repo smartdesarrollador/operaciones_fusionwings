@@ -102,9 +102,10 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
 
                         <div class="switch center-align " style="margin-top: 100px;margin-bottom: 100px">
                             <?php if (isset($_SESSION['local_jesus_maria']) == "jesus_maria") {  ?>
-                                <?php if ($item['idTienda'] === '3') {
+                                <?php if ($item['idTienda'] === '1') {
                                 ?>
-                                    <h5>Tienda Jesús María</h5>
+                                <h5>Tienda Lince</h5>
+                                    <!-- <h5>Tienda Jesús María</h5> -->
                                     <label>
                                         CERRADO
                                         <input <?= ($item['acepta_pedidos'] == 'TRUE') ? 'checked' : '' ?> onclick="actualizarDisponibilidad('<?= $item['acepta_pedidos'] ?>','<?= $item['idTienda'] ?>')" id="chkTiendaStatus" type="checkbox" class="">
@@ -117,24 +118,30 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                                 <?php if ($item['idTienda'] === '1') {
                                 ?>
                                     <h5>Tienda Lince</h5>
-
-                                <?php } ?>
-                                <?php if ($item['idTienda'] === '2') {
-                                ?>
-                                    <h5>Tienda Surco</h5>
-
-                                <?php } ?>
-                                <?php if ($item['idTienda'] === '3') {
-                                ?>
-                                    <h5>Tienda Jesús María</h5>
-
-                                <?php } ?>
-                                <label>
+                                    <label>
                                     CERRADO
                                     <input <?= ($item['acepta_pedidos'] == 'TRUE') ? 'checked' : '' ?> onclick="actualizarDisponibilidad('<?= $item['acepta_pedidos'] ?>','<?= $item['idTienda'] ?>')" id="chkTiendaStatus" type="checkbox" class="">
                                     <span class="lever"></span>
                                     ABIERTO
                                 </label>
+
+                                <?php } ?>
+                                <?php if ($item['idTienda'] === '2') {
+                                ?>
+                                    <!-- <h5>Tienda Surco</h5> -->
+
+                                <?php } ?>
+                                <?php if ($item['idTienda'] === '3') {
+                                ?>
+                                    <!-- <h5>Tienda Jesús María</h5> -->
+
+                                <?php } ?>
+                                <!-- <label>
+                                    CERRADO
+                                    <input <?= ($item['acepta_pedidos'] == 'TRUE') ? 'checked' : '' ?> onclick="actualizarDisponibilidad('<?= $item['acepta_pedidos'] ?>','<?= $item['idTienda'] ?>')" id="chkTiendaStatus" type="checkbox" class="">
+                                    <span class="lever"></span>
+                                    ABIERTO
+                                </label> -->
                             <?php } ?>
 
 
@@ -298,7 +305,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
 
                 </div> -->
 
-                    <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
+                    <!-- <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
                         <h5 class="center-align">Codigo de Cupón Surco</h5>
 
                         <form action="guardar_cupon_surco.php" method="POST" style="padding: 40px;">
@@ -408,7 +415,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                             </button>
                         </form>
 
-                    </div>
+                    </div> -->
 
                     <!--             <div class="z-depth-5" style="border-radius: 5px; border: 3px solid black;margin-top: 30px;">
                     <h5 class="center-align">Monto Minimo Jesús María</h5>
@@ -546,13 +553,13 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                                         <!-- <h6><?= ($item['idTienda'] == '1') ? 'Tienda Lince' : 'Tienda Surco' ?></h6> -->
 
                                         <?php if ($item['idTienda'] == '1') { ?>
-                                            <h6>Tienda Lince</h6>
+                                            <!-- <h6>Tienda Lince</h6> -->
                                             <?php echo $item['name'] ?>
                                         <?php } else if ($item['idTienda'] == '2') { ?>
-                                            <h6>Tienda Surco</h6>
+                                            <!-- <h6>Tienda Surco</h6> -->
                                             <?php echo $item['name'] ?>
                                         <?php } else { ?>
-                                            <h6>Tienda Jesús María</h6>
+                                            <!-- <h6>Tienda Jesús María</h6> -->
                                             <?php echo $item['name'] ?>
 
                                         <?php } ?>
@@ -692,7 +699,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
 
 
                 </div>
-                <div class="col l4 s12 m4 xl4 z-depth-5  " style="border-radius: 5px; border: 3px solid black;margin-top: 30px">
+                <!-- <div class="col l4 s12 m4 xl4 z-depth-5  " style="border-radius: 5px; border: 3px solid black;margin-top: 30px">
                     <h5 class="center-align">Ingredientes Tienda SURCO</h5>
 
 
@@ -783,7 +790,7 @@ $listaDistritosConCosto = $objDelivery->getCostoPorDistritos();
                     </div>
 
 
-                </div>
+                </div> -->
             <?php } ?>
 
         </div>

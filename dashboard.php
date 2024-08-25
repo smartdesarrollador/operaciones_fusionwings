@@ -74,7 +74,7 @@ foreach ($pedidos as $pedido) {
         }
 
         .tarjetas {
-            border: 2px solid #9C0001 !important;
+            border: 2px solid #FF6900 !important;
             border-radius: 8px;
             margin-bottom: 15px
         }
